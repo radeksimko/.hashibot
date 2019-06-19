@@ -18,6 +18,7 @@ behavior "pull_request_size_labeler" "size" {
     label_prefix = "size/"
     label_map = {
         "size/XS" = {
+            from = 0
             to = 30
         }
         "size/S" = {
@@ -38,6 +39,7 @@ behavior "pull_request_size_labeler" "size" {
         }
         "size/XXL" = {
             from = 1001
+            to = 0
         }
     }
 }
